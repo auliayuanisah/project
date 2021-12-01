@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"/>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <section>
+        <!--- navigation --->
+        <nav>
+            <!--- logo --->
+            <a href="home.html" class="logo"> 
+                <img src="cat.png" alt="" width="90" height="50">
+            
+                <!--- beranda --->
+                <ul>
+                    <li><a href="home.html" class="activebtn">Home</a></li>
+                    <li><a href="carapembelian.html">How to Buy?</a></li>
+                    <li><a href="kontak.html">Contact</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="keranjang.html" class="keranjang"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="26" height="24"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="#cccccc"></path><g fill="#000000"><path d="M86,15.42267c-1.2598,0 -2.51974,0.48012 -3.48276,1.44313l-33.03809,33.03809h13.93103l22.58982,-22.58982l22.58982,22.58982h13.93102l-33.03809,-33.03809c-0.96301,-0.96301 -2.22296,-1.44313 -3.48276,-1.44313zM26.88933,59.75567c-2.71909,0 -4.92589,2.2068 -4.92589,4.92589v9.85178c0,2.71909 2.2068,4.92589 4.92589,4.92589h0.81777l7.65822,45.94931c0.79307,4.74856 4.90449,8.23547 9.71709,8.23547h81.82556c4.81752,0 8.92402,-3.48691 9.71708,-8.23547l7.66784,-45.94931h0.81778c2.71909,0 4.92589,-2.2068 4.92589,-4.92589v-9.85178c0,-2.71909 -2.2068,-4.92589 -4.92589,-4.92589zM66.29644,79.45922c2.72402,0 4.92589,2.20187 4.92589,4.92589v29.55533c0,2.72402 -2.20187,4.92589 -4.92589,4.92589c-2.72402,0 -4.92589,-2.20187 -4.92589,-4.92589v-29.55533c0,-2.72402 2.20187,-4.92589 4.92589,-4.92589zM86,79.45922c2.72402,0 4.92589,2.20187 4.92589,4.92589v29.55533c0,2.72402 -2.20187,4.92589 -4.92589,4.92589c-2.72402,0 -4.92589,-2.20187 -4.92589,-4.92589v-29.55533c0,-2.72402 2.20187,-4.92589 4.92589,-4.92589zM105.70356,79.45922c2.72402,0 4.92589,2.20187 4.92589,4.92589v29.55533c0,2.72402 -2.20187,4.92589 -4.92589,4.92589c-2.72402,0 -4.92589,-2.20187 -4.92589,-4.92589v-29.55533c0,-2.72402 2.20187,-4.92589 4.92589,-4.92589z"></path></g></g></svg></a></li>
+                </ul>
+                <form>
+                    <input class="search" type="text" placeholder="Search..." required>	
+                    <input class="cari" type="button" value="Search">		
+                </form>
+            </a>
+        </nav>
+
+        <!--card kontak-->
+        <div class="kontak">
+            <div class="kontak-content">
+                <div class="kontak-title">
+                    <h4> Hubungi Kami secara Online</h4>
+                </div>
+                <form method="post" class="kontak-form"></form>
+                <label for="nama-kontak"> Nama </label>
+                    <input id="nama-kontak" class="nama-content" type="nama" name="nama" required />
+                <label for="email-kontak"> Email </label>
+                    <input id="email-kontak" class="email-content" type="email" name="email" required />
+                <label for="subjek-kontak"> Subjek </label>
+                    <input id="subjek-kontak" class="subjek-content" type="subjek" name="subjek" required />
+                <label for="pesan-kontak"> Pesan </label>
+                    <textarea cols="30" rows="5" id="pesan-kontak" class="pesan-content" type="pesan" name="pesan"></textarea>
+                    <a href=""><center><input class="submit-kirim" type="submit" value="Kirim"></center></a>
+            </div>
+        </div>
+    </section>
+    </body>
+    </html>
